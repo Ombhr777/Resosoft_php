@@ -1,0 +1,95 @@
+body {
+       background-image: linear-gradient(#e3eef3, #f2f8fb);
+       font-family: monospace; /* Choose a suitable font */
+       font-size: 16px;
+       margin: 20px;
+     }
+     
+     /* Set styles for headings and labels */
+     h2 {
+       text-align: center;
+       margin-bottom: 20px;
+       font-family: "Roboto", sans-serif;
+       color: #607D8B; /* Dark blue */
+       font-size: 20px;
+     }
+     
+     label {
+       display: block;
+       margin-bottom: 5px;
+       font-family: "Open Sans", sans-serif;
+       font-size: 16px;
+       color: #4a5466; /* Darker gray */
+     }
+     
+     /* Style form elements and container */
+     input, textarea {
+       padding: 8px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       font-family: inherit;
+     }
+     
+     .form-container {
+       padding: 20px;
+       border-radius: 5px;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       margin-bottom: 30px;
+       background-color: #EAF2F5; /* Light blue */
+     }
+     
+     /* Style output container */
+     .output-container {
+       padding: 15px;
+       border-radius: 5px;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       background-color: #FFF8E1; /* Light yellow */
+     }
+     
+     /* Add rounded corners and shadows to buttons */
+     .form-container button {
+       background-color: #3d85c6; /* Lighter blue */
+       color: #fff;
+       border: none;
+       padding: 10px 20px;
+       border-radius: 5px;
+       transition: background-color 0.2s ease-in-out;
+     }
+     
+     .form-container button:hover {
+       background-color: #3070a7; /* Darker blue */
+     }
+     
+     /* Apply syntax highlighting using spans */
+     code {
+       font-family: inherit; /* Match font with rest of the code */
+     }
+     
+     .keyword {
+       color: #C02942; /* Red-violet */
+     }
+     
+     .comment {
+       color: #7F9F7F; /* Greenish-teal */
+     }
+     
+     .string {
+       color: #D95B43; /* Orange */
+     }
+     
+     .number {
+       color: #43A047; /* Green */
+     }
+     
+     .operator {
+       color: #D8BFD8; /* Light purple */
+     }
+     
+     .function {
+       color: #428BCA; /* Blue */
+     }
+     
+     /* Animate syntax highlighting on hover */
+     code span:hover {
+       text-shadow: 0 0 2px #d7e0eb; /* Subtle glow */
+     }
